@@ -52,7 +52,7 @@ open terminal
        gradlew bootrun 
        
 And now we can access the **Eureka Server** on this link: 
-[Eureka Server] (http://localhost:8761/)
+[Eureka Server](http://localhost:8761/)
 
 You will see here registered **Services** and **Zuul API Gateway** 
 once we start them.
@@ -170,11 +170,11 @@ you to start multiple instances of the **forex-rates-service** and
 forwarding to the multiple instances to balance the load.
 
 ##### List of APIs To Access "forex-rates-service"
-* [USD to INR] (http://localhost:7001/forex-rates/api/exchange-rates/from/USD/to/INR)
-* [EUR to INR] (http://localhost:7001/forex-rates/api/exchange-rates/from/EUR/to/INR)
-* [AUD to INR] (http://localhost:7001/forex-rates/api/exchange-rates/from/AUD/to/INR)
+* [USD to INR](http://localhost:7001/forex-rates/api/exchange-rates/from/USD/to/INR)
+* [EUR to INR](http://localhost:7001/forex-rates/api/exchange-rates/from/EUR/to/INR)
+* [AUD to INR](http://localhost:7001/forex-rates/api/exchange-rates/from/AUD/to/INR)
 
 ##### List of APIs To Access "forex-converter-service"
-* [USD to INR] (http://localhost:7001/forex-converter/api/currency-converter/from/USD/to/INR/amount/5)
-* [EUR to INR] (http://localhost:7001/forex-converter/api/currency-converter/from/EUR/to/INR/amount/10)
-* [AUD to INR] (http://localhost:7001/forex-converter/api/currency-converter/from/AUD/to/INR/amount/15)
+* [USD to INR](http://localhost:7001/forex-converter/api/currency-converter/from/USD/to/INR/amount/5)
+* [EUR to INR](http://localhost:7001/forex-converter/api/currency-converter/from/EUR/to/INR/amount/10)
+* [AUD to INR](http://localhost:7001/forex-converter/api/currency-converter/from/AUD/to/INR/amount/15)
